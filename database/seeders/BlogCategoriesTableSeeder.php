@@ -35,6 +35,5 @@ class BlogCategoriesTableSeeder extends Seeder
         }
 
         DB::table('blog_categories')->insert($categories);
-        //
     }
 }
